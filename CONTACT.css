@@ -1,0 +1,119 @@
+:root {
+  --primary-color: #f4f0ed;
+  --secondary-color: #ebebeb;
+  --third-color: #000000;
+  --fourth-color: #1e63b4;
+  --fifth-color: #cf6c10;
+}
+@font-face {
+  font-family: AKIRA;
+  src: url("Fonts/FontsFree-Net-Akira-Expanded-Demo.ttf");
+}
+@font-face {
+  font-family: SOFIA;
+  src: url("Fonts/Sofia\ Pro\ Medium\ Italic\ Az.otf");
+}
+* {
+  background-color: var(--secondary-color);
+}
+
+h3 {
+  color: var(--third-color);
+}
+h4 {
+  color: var(--third-color);
+}
+
+p {
+  color: var(--third-color);
+}
+.MVR {
+  width: 5%;
+}
+.graphicdesign {
+  font-family: poppins;
+  letter-spacing: 2px;
+  display: inline;
+  top: 10px;
+  position: absolute;
+}
+.Menu {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+.Menu a {
+  display: inline;
+  font-family: poppins;
+  font-weight: bold;
+  color: var(--fourth-color);
+  padding: 30px;
+  text-decoration: none;
+}
+.Menu a:active {
+  color: var(--fourth-color);
+}
+.ByMichaVillegas {
+  display: inline;
+  font-family: poppins;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+.Headerintroduction {
+  color: var(--secondary-color);
+  font-family: poppins;
+}
+
+.backgroundcolor {
+  background-color: var(--primary-color) !important;
+}
+.back {
+  font-family: poppins;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  color: var(--secondary-color);
+  margin-top: 25px;
+  text-decoration: none;
+  position: absolute;
+  left: 20px;
+}
+
+.Letsworktogether {
+  font-family: poppins;
+  letter-spacing: 2px;
+  display: inline;
+  top: 10px;
+  position: absolute;
+  padding-left: 40px;
+  padding-top: 200px;
+  font-size: 15pt;
+}
+
+.Contactme {
+  font-family: poppins;
+  text-align: left;
+  font-size: 12pt;
+  padding-top: 230px;
+  padding-left: 40px;
+  width: 400px;
+  text-align: justify;
+}
+.CONTACTINFO {
+  font-family: poppins;
+  letter-spacing: 4px;
+  text-align: left;
+  font-size: 12pt;
+  padding-top: 100px;
+  padding-left: 40px;
+  width: 400px;
+  text-align: justify;
+}
+.CONTACTINFO2 {
+  font-family: poppins;
+  text-align: left;
+  font-size: 10pt;
+  letter-spacing: 2px;
+  font-weight: normal;
+  padding-left: 40px;
+}

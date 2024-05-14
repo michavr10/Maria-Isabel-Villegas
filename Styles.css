@@ -206,11 +206,11 @@ p {
 }
 .wrapper4 {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(4, 10vw);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 10vw);
   padding-top: 15%;
   width: 50%;
-  padding-left: 100%;
+  padding-left: 60%;
   padding-top: 15%;
   grid-gap: 4px;
 }
@@ -244,6 +244,18 @@ p {
   grid-row-start: 3;
   grid-row-end: 5;
 }
+.FOTO {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  font-family: poppins;
+  letter-spacing: 15px;
+  color: var(--fourth-color);
+  font-size: 100px;
+  font-weight: lighter;
+  text-align: left;
+}
 
 .wrapper5 {
   display: grid;
@@ -251,9 +263,9 @@ p {
   grid-template-rows: repeat(4, 10vw);
   padding-top: 15%;
   width: 50%;
-  padding-left: 100%;
+  padding-right: 60%;
   padding-top: 15%;
-  grid-gap: 1px;
+  grid-gap: 10px;
 }
 .wrapper5 img {
   width: 100%;
@@ -262,15 +274,15 @@ p {
 }
 .Berlioz {
   grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
 }
 .Nonna {
   grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-end: 5;
   grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-end: 3;
 }
 .Runbyrun {
   grid-column-start: 1;
@@ -280,14 +292,27 @@ p {
 }
 
 .Casse {
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
   grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-end: 5;
 }
 .Pacemates {
   grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-end: 5;
   grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-end: 5;
+}
+
+.LOGOS {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  font-family: poppins;
+  letter-spacing: 15px;
+  color: var(--fourth-color);
+  font-size: 100px;
+  font-weight: lighter;
+  text-align: left;
 }
